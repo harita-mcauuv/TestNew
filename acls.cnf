@@ -13,32 +13,12 @@
       <record name="deny" javaclass="com.wm.util.Values">
       </record>
     </record>
-    <record name="Developers" javaclass="com.wm.app.b2b.server.ACLGroup">
-      <value name="name">Developers</value>
-      <record name="allow" javaclass="com.wm.util.Values">
-        <value name="local/Administrators">local/Administrators</value>
-        <value name="local/Developers">local/Developers</value>
-        <value name="system/My webMethods Administrators">system/My webMethods Administrators</value>
-      </record>
-      <record name="deny" javaclass="com.wm.util.Values">
-      </record>
-    </record>
     <record name="MonitorAdministrators" javaclass="com.wm.app.b2b.server.ACLGroup">
       <value name="name">MonitorAdministrators</value>
       <record name="allow" javaclass="com.wm.util.Values">
         <value name="local/Administrators">local/Administrators</value>
         <value name="local/MonitorAdministrators">local/MonitorAdministrators</value>
         <value name="system/My webMethods Administrators">system/My webMethods Administrators</value>
-      </record>
-      <record name="deny" javaclass="com.wm.util.Values">
-      </record>
-    </record>
-    <record name="TNAdministrators" javaclass="com.wm.app.b2b.server.ACLGroup">
-      <value name="name">TNAdministrators</value>
-      <record name="allow" javaclass="com.wm.util.Values">
-        <value name="local/Administrators">local/Administrators</value>
-        <value name="local/TNAdministrators">local/TNAdministrators</value>
-        <value name="system/TN Administrators">system/TN Administrators</value>
       </record>
       <record name="deny" javaclass="com.wm.util.Values">
       </record>
@@ -60,15 +40,6 @@
         <value name="system/TN Administrators">system/TN Administrators</value>
         <value name="system/TN MWS Users">system/TN MWS Users</value>
         <value name="system/TN Onboarding Users">system/TN Onboarding Users</value>
-      </record>
-      <record name="deny" javaclass="com.wm.util.Values">
-      </record>
-    </record>
-    <record name="Administrators" javaclass="com.wm.app.b2b.server.ACLGroup">
-      <value name="name">Administrators</value>
-      <record name="allow" javaclass="com.wm.util.Values">
-        <value name="local/Administrators">local/Administrators</value>
-        <value name="system/My webMethods Administrators">system/My webMethods Administrators</value>
       </record>
       <record name="deny" javaclass="com.wm.util.Values">
       </record>
@@ -119,6 +90,43 @@
       <value name="name">TempACL</value>
       <record name="allow" javaclass="com.wm.util.Values">
         <value name="local/TempGroup">local/TempGroup</value>
+      </record>
+      <record name="deny" javaclass="com.wm.util.Values">
+      </record>
+    </record>
+    <record name="SCGC_ACL" javaclass="com.wm.app.b2b.server.ACLGroup">
+      <value name="name">SCGC_ACL</value>
+      <record name="allow" javaclass="com.wm.util.Values">
+        <value name="local/scgcConsumer">local/scgcConsumer</value>
+      </record>
+      <record name="deny" javaclass="com.wm.util.Values">
+      </record>
+    </record>
+    <record name="Developers" javaclass="com.wm.app.b2b.server.ACLGroup">
+      <value name="name">Developers</value>
+      <record name="allow" javaclass="com.wm.util.Values">
+        <value name="local/Administrators">local/Administrators</value>
+        <value name="local/Developers">local/Developers</value>
+        <value name="system/My webMethods Administrators">system/My webMethods Administrators</value>
+      </record>
+      <record name="deny" javaclass="com.wm.util.Values">
+      </record>
+    </record>
+    <record name="TNAdministrators" javaclass="com.wm.app.b2b.server.ACLGroup">
+      <value name="name">TNAdministrators</value>
+      <record name="allow" javaclass="com.wm.util.Values">
+        <value name="local/Administrators">local/Administrators</value>
+        <value name="local/TNAdministrators">local/TNAdministrators</value>
+        <value name="system/TN Administrators">system/TN Administrators</value>
+      </record>
+      <record name="deny" javaclass="com.wm.util.Values">
+      </record>
+    </record>
+    <record name="Administrators" javaclass="com.wm.app.b2b.server.ACLGroup">
+      <value name="name">Administrators</value>
+      <record name="allow" javaclass="com.wm.util.Values">
+        <value name="local/Administrators">local/Administrators</value>
+        <value name="system/My webMethods Administrators">system/My webMethods Administrators</value>
       </record>
       <record name="deny" javaclass="com.wm.util.Values">
       </record>
