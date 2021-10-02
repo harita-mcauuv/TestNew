@@ -4,13 +4,8 @@
   <record javaclass="com.wm.data.ISMemDataImpl">
     <array name="globalVariables" type="record" depth="1">
       <record javaclass="com.wm.data.ISMemDataImpl">
-        <value name="key">SAP.url</value>
-        <value name="value">http://test:3000</value>
-        <value name="isSecure">false</value>
-      </record>
-      <record javaclass="com.wm.data.ISMemDataImpl">
-        <value name="key">Itg.scgc.retailAccount.taxIdType’</value>
-        <value name="value">ABC</value>
+        <value name="key">FromDifferentServer</value>
+        <value name="value">true</value>
         <value name="isSecure">false</value>
       </record>
     </array>
